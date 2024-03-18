@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Slot machine</title>
+</head>
+<body>
+
+    <section class=" flex justify-center items-center pt-[40px]">
+        <div class="h-[400px] w-[400px] bg-red-700 border-[2px] flex justify-center items-center border-black rounded-[20px]">
+
+            <h1 class="text-[20px] text-center absolute top-[60px] font-extrabold">SLOT MACHINE</h1>
+            <div class="grid grid-cols-3 h-[50px] w-[300px] border-[2px] text-center bg-white border-black rounded-[10px] ">
+                <div id="simbolo1" class="pt-[5px] text-[25px]">🍒</div>
+                <div id="simbolo2" class="pt-[5px] text-[25px]">🍇</div>
+                <div id="simbolo3" class="pt-[5px] text-[25px]">🍉</div>
+            </div>
+
+            <p id="risultato" class="absolute top-[320px] font-bold"></p>
+
+            <div class="flex justify-center items-center absolute top-[360px] text-center ">
+                <span id="gioca" class=" h-[30px] w-[100px] font-semibold m-[10px] bg-yellow-400 border-[2px] rounded-[20px] border-white">GIOCA</span>
+                <span id="restart" class=" h-[30px] w-[100px]  font-semibold m-[10px] bg-yellow-400 border-[2px] rounded-[20px] border-white">RESTART</span>
+            </div>
+          
+
+        </div>
+    </section>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
